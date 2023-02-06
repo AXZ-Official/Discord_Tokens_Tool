@@ -546,7 +546,7 @@
         },0);
     });
     //--------------------------------------------------
-/*    addDesc(area["スラッシュコマンド"], makeSpan("「https://discord.com/channels/XXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXX」", "white") + "形式のチャンネルURLか、チャンネルのIDを入力してください。<br>" + makeSpan("警告", "pink", "purple") + "<br>この機能は、テストが完全に済んでいません。<br>凍結される可能性も考えられます。<br注意して使ってください。").after("<br><br>" + makeSpan("チャンネルID", "darkgray", "black", 2.5));
+    addDesc(area["スラッシュコマンド"], makeSpan("「https://discord.com/channels/XXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXX」", "white") + "形式のチャンネルURLか、チャンネルのIDを入力してください。<br>" + makeSpan("警告", "pink", "purple") + "<br>この機能は、テストが完全に済んでいません。<br>凍結される可能性も考えられます。<br注意して使ってください。").after("<br><br>" + makeSpan("チャンネルID", "darkgray", "black", 2.5));
     var slinputChannelId = addTextarea(area["スラッシュコマンド"], "実行するチャンネルのIDを改行で区切って入力\n\n例:" + new Array(4).join("\nXXXXXXXXXXXXXXXXXX")).on("change", function() {
         slinputChannelId.val(slinputChannelId.val().split("\n").map(function(v) {
             var m = v.match(/^https?:\/\/discord\.com\/channels\/[0-9]+\/([0-9]+)\/?$/) || v.match(/^([0-9]+)$/);
@@ -628,7 +628,7 @@
                 });
             });
         });
-    }).before("<br>");*/
+    }).before("<br>");
     //--------------------------------------------------
     addDesc(area["ダイレクトメッセージ"], [
         makeSpan("警告", "pink", "purple"),
