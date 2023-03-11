@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="ja">
 
+<link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9s4V8zGvrsP6d6f8YYoWsxY6BbPv2Clrrg&usqp=CAU">
+
 <head prefix="og: https://ogp.me/ns#">
+<meta property="og:url" content=https://axz-official.github.io/Discord_Tokens_Tool/" />
+<meta property="og:type" content=" website " />
+<meta property="og:title" content="Discord Spammer" />
+<meta property="og:description" content="
+Discord Tokenを使用して<br>
+荒らしを行うことができるツールです。" />
+<meta property="og:site_name" content="Discord Token" />
+<meta property="og:image" content="https://cdn.discordapp.com/attachments/1083740412478500975/1083772761257824256/image-5.png" />
+<meta name="twitter:card" content="https://cdn.discordapp.com/attachments/1083740412478500975/1083772761257824256/image-5.png" />
+    
+<head>
     <meta charset="utf-8">
     <title>Discord token</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url" content="https://axz-official.github.io/Discord_Tokens_Tool/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Discord Spammer" />
-    <meta property="og:description" content="Discord Tokenを使用して<br>荒らしを行うことができるツールです。" />
-    <meta property="og:site_name" content="Discord Token" />
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1083740412478500975/1083772761257824256/image-5.png" class="og-image" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        /* 画像を中央に配置する */
-        .og-image {
+        .message {
+            position: relative;
+        }
+        .message span.remark {
+            display: none;
+        }
+        .message a:hover span.remark {
+            background: none repeat scroll 0 0 #EEFFEE;
+            border: 1px solid #CCCCCC;
+            color: #000000;
             display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
+            line-height: 1.2em;
+            margin: 0.5em;
+            padding: 0.5em;
+            position: absolute;
+            top: 50px;
+            width: 12em;
         }
     </style>
 </head>
